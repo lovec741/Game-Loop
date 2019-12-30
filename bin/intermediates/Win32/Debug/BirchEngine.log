@@ -1,0 +1,9 @@
+﻿  Game.cpp
+  GameObject.cpp
+  main.cpp
+  Map.cpp
+  TextureManager.cpp
+  Compiling...
+  Generating Code...
+Map.obj : error LNK2019: unresolved external symbol "public: static void __cdecl TextureManager::Draw(struct SDL_Texture *,struct SDL_Rect,struct SDL_Rect)" (?Draw@TextureManager@@SAXPAUSDL_Texture@@USDL_Rect@@1@Z) referenced in function "public: void __thiscall Map::DrawMap(void)" (?DrawMap@Map@@QAEXXZ)
+D:\OneDrive\Other\cpp\Dev\BirchEngine - Game Loop\bin\Win32\Debug\BirchEngine.exe : fatal error LNK1120: 1 unresolved externals
